@@ -2,3 +2,6 @@
 <title>{{ .Page.Title }} | {{ .Site.Title }}</title>
 {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@1&display=swap" rel="stylesheet">

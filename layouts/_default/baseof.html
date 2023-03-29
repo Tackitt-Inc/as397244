@@ -6,7 +6,9 @@
 
 <body>
     {{ partial "fullnav.html" }}
-    {{ block "main" . }}
-    {{ end }}
+    <section class="bodysectionrectangle">
+        {{ block "main" . }}
+        {{ end }}
+    </section>
 </body>
 </html>
